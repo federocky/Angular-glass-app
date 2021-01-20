@@ -1,0 +1,5 @@
+<div class="status">
+    <h1>Active Games</h1>
+    <!--recogemos el texto y lo emitimos al padre-->
+    <input type="text" placeholder="Search game..." #texto (keyup)="search.emit(texto.value)">
+</div>

@@ -1,0 +1,13 @@
+<div class="games">
+
+    <!--recibimos el string para buscar y lo mandamos a la funcion deseada-->
+    <app-game-search (search)="searching($event)"></app-game-search>
+
+    <!--recibimos el string para agregar un juego y lo mandamos a la funcion-->
+    <app-game-add (toAdd)="add($event)"></app-game-add>
+
+    <!--mandamos tanto lo que queremos buscar como lo que queremos agregar-->
+    <app-game-list [toFind]="toSearch" [toAdd]="toAdd"></app-game-list>
+
+
+</div>

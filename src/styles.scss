@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: #426696;
+    font-weight: 600;
+    font-size: 2rem;
+    opacity: 0.8;
+}
+
+h2, p{
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+h3{
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+.circle1, .circle2{
+    background: #fff;
+    background: linear-gradient(
+        to right bottom, 
+        rgba(255,255,255,0.8), 
+        rgba(255,255,255,0.3)
+    );
+    height: 12rem;
+    width: 12rem;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle1{
+    top: 2%;
+    right: 5%;
+}
+
+.circle2{
+    bottom: 1%;
+    left: 2%;
+}

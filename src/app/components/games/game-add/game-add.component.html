@@ -1,0 +1,5 @@
+<!--al hacer click en el boton mandamos la palabra para buscarla-->
+<div class="status">
+    <input type="text" placeholder="Add game..." #text>
+    <input type="button" value="Add" (click)="toAdd.emit(text.value)">
+</div>

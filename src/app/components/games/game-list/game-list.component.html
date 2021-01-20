@@ -1,0 +1,4 @@
+<div class="cards">
+    <!--recorremos la lista de juegos y vamos mandando cada juego al game info-->
+    <app-game-info *ngFor="let game of toList()" [game]="game"></app-game-info>
+</div>
