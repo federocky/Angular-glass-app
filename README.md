@@ -1,27 +1,33 @@
-# GlassApp
+# Glass App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.
+![Project Image](./main_img.png)
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Description
+A very simple, little logic app made in angular to show a list of product and use a search on them. the UI was made following this great HTML CSS course.
 
-## Code scaffolding
+[Dev Ed - Build Glass Website with HTML and CSS Tutorial.](https://www.youtube.com/watch?v=O7WbVj5apxU&ab_channel=DevEd)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Use
 
-## Running unit tests
+To run the angular application you need to run npm install to get the needed packages and ng serve -o to run it in a local server.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## Technologies
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- HTML CSS
+- Angular
+- Type Script
 
-## Further help
+---
+## Author Info
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Linkedin - [Federico Andrés Jácome Castañeda](https://www.linkedin.com/in/federicojacome/)
+- Website - [To be added](https://github.com/federocky)
+
+[Back To The Top](#read-me-template)
